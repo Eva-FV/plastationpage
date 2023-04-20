@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar {
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar .nav-links ul {
+    display: flex;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 25px;
+}
+
+.navbar .nav-links ul li.active a {
+    color: white;
+    font-weight: 600;
+}
+
+nav img {
+    display: flex;
+    float: left;
+    width: 50%;
+}
+
+main {
+    background: linear-gradient(#f5c939, #f98023);
+    padding-top: 5%;
+}
+
+.numero {
+    display: flex;
+    text-align: end;
+    margin-right: 2%;
+}
+
+.section1 {
+    color: white;
+    background-color: #212121;
+    padding: 30px;
+}
+
+.ps51 img {
+    display: block;
+    float: left;
+    width: 35%;
+}
+
+.ps52 img {
+    display: flex;
+    float: left;
+    margin-top: 5%;
+    margin-right: 80%;
+    max-width: 10%;
+}
+
+.ps53 img {
+    float: right;
+    margin-right: 90%;
+    display: flex;
+    width: 10%;
+}
+
+.section2 hr {
+    display: flex;
+    clear: both;
+    position: absolute;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    height: 450px;
+    background: black;
+}
+
+.description {
+    margin-top: 2%;
+}
+
+.checked {
+    color: #ffd964;
+}
+
+button {
+    border: none;
+    background: #000000;
+    color: #FEFEFE;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin: 5px;
+    font-weight: bold;
+    width: 150px;
+}
+
+.prix {
+    font-size: 300%;
+}
+
+.avis {
+    display: flex;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.icone img {
+    display: flex;
+    margin-left: 50%;
+    margin-top: 15%;
+    max-width: 50px;
+    height: auto;
+}
